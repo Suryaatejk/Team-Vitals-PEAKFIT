@@ -1,6 +1,6 @@
 # PEAK FIT - Health & Fitness Web App
 
-Welcome to **PEAK FIT**, a web-based health and fitness application built using the **MERN stack**. This application helps users track their fitness journey by monitoring health metrics, meal plans, sleep, and hydration levels.
+Welcome to **PEAK FIT**, a web-based health and fitness application built using the **React & Firebase**. This application helps users track their fitness journey by monitoring health metrics, meal plans, sleep, and hydration levels.
 
 ---
 ## Features
