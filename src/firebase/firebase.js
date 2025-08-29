@@ -5,13 +5,13 @@ import { getFirestore, doc, setDoc, getDoc } from "firebase/firestore";
 
 // Your Firebase Config
 const firebaseConfig = {
-    apiKey: "AIzaSyDrbiKUz1g1GXfvsC1TYdWc1ewE6FWIe3o",
-    authDomain: "peak-fit-e9512.firebaseapp.com",
-    projectId: "peak-fit-e9512",
-    storageBucket: "peak-fit-e9512.firebasestorage.app",
-    messagingSenderId: "245588410325",
-    appId: "1:245588410325:web:96f84650ee1a4461fe875c",
-    measurementId: "G-5V6MBFE49E"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
